@@ -3,11 +3,7 @@ int main()
 {
     int a = 4;
     printf("%d\n",a);
-    int* ptr = NULL;
-    if(ptr)
-    {
-        printf("pointer is not null");
-    }
+    int* ptr;
     ptr = &a;
     *ptr = 45;
     printf("%d",a);
